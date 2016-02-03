@@ -1,0 +1,322 @@
+/* Inserta tu codigo aqui */
+*{
+	font-family: "OpenSans-Light" Helvetica;
+}
+
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url(../fonts/Open/OpenSans-Regular.ttf);
+}
+@font-face{
+	font-family: OpenSans-Light;
+	src: url(../fonts/Open/OpenSans-Light.ttf);
+}
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url(../fonts/Open/OpenSans-Bold.ttf);
+}
+
+
+header img{
+	width: 110px;
+	height: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
+
+}
+header .col-9 nav{
+	margin-top: 45px;
+	color:silver;
+}
+.col-9 a{
+	text-decoration: none;
+	font-family: 'OpenSans-Light';
+	color: silver;
+	padding: 30px;
+}
+.col-9 a:hover{
+	text-decoration: none;
+	font-family: 'OpenSans-Light';
+	color: black;
+}
+.bg-img-block{
+	background-image: url('../img/semilla.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.foto{
+	width: 	100%;
+	height: 300px;
+}
+.estrofa{
+	background: #F2F2F2;
+	padding: 70px 200px;
+}
+.estrofa p{
+	color: black;
+	font-family: 'OpenSans-Light';
+	text-align: center;
+	font-size: 13px;
+}
+.col-6 img{
+	margin-left: 225px;
+	margin-top: 50px;
+}
+.col-6 h3{
+	text-align: center;
+	font-family: 'OpenSans-Regular';
+
+}
+
+.col-6 p{
+	text-decoration: center;
+	font-family: 'OpenSans-Light';
+	font-size: 13px;
+	margin-left: 70px;
+	margin-bottom: 50px;
+}
+.metodo{
+	background-image: url('../img/metodo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fot{
+	height: 330px;
+}
+
+.metodologia{
+	background-image: url('../img/fondo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.metodologia img{
+	margin-left: 270px;
+	margin-top: 80px;
+}
+.metodologia h3, .metodologia p{
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+.texto_service h3{
+	color: black;
+	text-align:center;
+	margin-top: 50px;
+	font-family: 'OpenSans-Light';
+}
+.texto_service p{
+	color: black;
+	font-family: 'OpenSans-Light';
+	margin: 30px 200px 50px 200px;
+	font-size: 13px;
+	text-align: center;
+
+}
+.service {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.service h5{
+	color: #5E8039;
+	font-family: 'OpenSans-Light';
+	text-align: center;
+	margin-left: 0px;
+}
+.service p{
+	font-family: 'OpenSans-Light';
+	font-size:12px;
+	margin-top: 15px;
+}
+.bg-proyecto {
+	background: #5E8039;
+	text-align: center;
+	padding: 80px 100px 80px 100px;
+	
+}
+.titulo{
+	text-align: left;
+	font-family: 'OpenSans-Light';
+	color: white;
+}
+.bg-proyecto img{
+	width: 450px;
+	height: 300px;
+}
+
+.bg-proyecto .col-5 h3,h5{
+    font-family: 'OpenSans-Light';
+    text-align: center;
+    color: white;
+    margin-left: 0px;
+
+}
+.col-5 p{
+	font-family: 'OpenSans-Light';
+	font-size:13px;
+	color:white;
+}
+.text_proyecto{
+	margin-left: 150px;
+	margin-top: 50px;
+}
+aside{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'OpenSans-Light';
+    color: black;
+    text-align: left;
+}
+aside .row h2{
+	color: #5E8039;
+	font-family: 'OpenSans-Light';
+	margin-left: 100px;
+	margin-bottom: 0px;
+}
+aside img{
+	border-radius: 100%;
+	width: 200px;
+	height: 200px;
+	margin-top: 0px;
+
+}
+.texto_equipo p{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+aside .texto_equipo h3, aside .texto_equipo h5{
+	margin-left:50px;
+	color: black;
+
+}
+.icons_equipo{
+    margin-left: 260px;
+}
+aside .icons_equipo .ico{
+	width: 40px;
+	height: 40px;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 4px;
+
+}
+article{
+	background-image: url('../img/fondo2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+
+}
+article .col-12 h4{
+	font-family: 'OpenSans-Light';
+	color:black;
+	margin-top: 50px;
+	margin-left: 80px;
+	font-size: 20px;
+    margin-bottom: 0px;
+}
+article .slider_inicio{
+	margin-left: 40px;
+	margin-top: 150px;
+
+}
+article .col-10{
+	margin-right: 0px;
+	
+}
+.col-4 .foto_article{
+    width: 300px;
+    height: 200px;
+}
+.col-4 h3, article .col-4 h6, .col-4 p{
+	font-family: 'OpenSans-Light';
+	color: #4D4D4D;
+	
+}
+article p{
+	font-size: 13px;
+	width: 300px;
+	text-align: left;
+
+}
+article h6{
+	font-size: 15px;
+}
+
+article .col-1 .slider_final{
+	margin-top:150px;
+	margin-left:0px;
+}
+.after_section{
+	background: #4D4D4D;
+	padding: 80px;
+}
+.container_redes a{
+	text-decoration: none;
+	font-family: 'OpenSans-Light';
+	color:white;
+
+}
+.container_redes a:hover{
+	text-decoration: none;
+	font-family: 'OpenSans-Light';
+	color:black;
+}
+.container_redes{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.container_redes img{
+	width: 40px;
+	height: 40px;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+}
+.contenedor_fb{
+	border: 1px solid white;
+	width: 250px;
+	padding-top: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	margin: -2px;
+	text-align: left;
+}
+.contenedor_fb .email img{
+	width: 40px;
+	height: 30px;
+	margin-top: 110px;
+	margin-bottom: 10px;
+}
+footer{
+	padding: 50px 100px;
+}
+footer p{
+	font-family: 'OpenSans-Light';
+	text-decoration: none;
+	font-size: 15px;
+	
+}
+footer a{
+	text-decoration: none;
+	color: orange;
+	font-family: 'OpenSans-Light';
+}
+footer a:hover{
+	text-decoration: none;
+	color: black;
+	font-family: 'OpenSans-Light';
+}
+
+footer .text_right {
+	text-align: right;
+	font-family: 'OpenSans-Light';
+	margin-top: -40px;
+}
+footer .text_right p{
+	font-size: 13px;
+}
